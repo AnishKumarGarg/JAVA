@@ -1,0 +1,30 @@
+class GFG {
+ 
+    // function to find
+    // the rightmost set bit
+    static int PositionRightmostSetbit(int n)
+    {
+        // Position variable initialize
+        // with 1 m variable is used to
+        // check the set bit
+        int position = 1;
+        int m = 1;
+ 
+        while ((n & m) == 0) {
+ 
+            // left shift
+            m = m << 1;
+            position++;
+        }
+        return position;
+    }
+ 
+    // Driver Code
+    public static void main(String[] args)
+    {
+        int n = 18;
+ 
+        // function call
+        System.out.println(PositionRightmostSetbit(n));
+    }
+}
