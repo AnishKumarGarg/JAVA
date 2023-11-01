@@ -1,6 +1,6 @@
 # This is the practice for recursion
 
-*Tutorial Videos
+* Tutorial Videos
 https://www.youtube.com/playlist?list=PLDzeHZWIZsTqBmRGnsCOGNDG5FY0G04Td
 
 * Basic Problems for practice
